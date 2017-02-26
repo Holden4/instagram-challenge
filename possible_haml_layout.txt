@@ -1,0 +1,573 @@
+
+
+!!!
+/
+  \==============================
+  Project:        Metronic "Aironepage" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+  Version:        1.0
+  Author:         KeenThemes
+  Primary use:    Corporate, Business Themes.
+  Email:          support@keenthemes.com
+  Follow:         http://www.twitter.com/keenthemes
+  Like:           http://www.facebook.com/keenthemes
+  Website:        http://www.keenthemes.com
+  Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+  \==================================
+%html.no-js{:lang => "en"}
+  / BEGIN HEAD
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %title Metronic "Aironepage" Frontend Freebie
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    / GLOBAL MANDATORY STYLES
+    %link{:href => "http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "vendor/simple-line-icons/css/simple-line-icons.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "vendor/bootstrap/css/bootstrap.min.css", :rel => "stylesheet", :type => "text/css"}/
+    / PAGE LEVEL PLUGIN STYLES
+    %link{:href => "css/animate.css", :rel => "stylesheet"}/
+    %link{:href => "vendor/swiper/css/swiper.min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "vendor/magnific-popup/magnific-popup.css", :rel => "stylesheet", :type => "text/css"}/
+    / THEME STYLES
+    %link{:href => "css/layout.min.css", :rel => "stylesheet", :type => "text/css"}/
+    / Favicon
+    %link{:href => "favicon.ico", :rel => "shortcut icon"}/
+  / END HEAD
+  / BODY
+  %body#body{"data-spy" => "scroll", "data-target" => ".header"}
+    / ========== HEADER ==========
+    %header.header.navbar-fixed-top
+      / Navbar
+      %nav.navbar{:role => "navigation"}
+        .container
+          / Brand and toggle get grouped for better mobile display
+          .menu-container.js_nav-item
+            %button.navbar-toggle{"data-target" => ".nav-collapse", "data-toggle" => "collapse", :type => "button"}
+              %span.sr-only Toggle navigation
+              %span.toggle-icon
+            / Logo
+            .logo
+              %a.logo-wrap{:href => "#body"}
+                %img.logo-img.logo-img-main{:alt => "Asentus Logo", :src => "img/logo.png"}/
+                %img.logo-img.logo-img-active{:alt => "Asentus Logo", :src => "img/logo-dark.png"}/
+            / End Logo
+          / Collect the nav links, forms, and other content for toggling
+          .collapse.navbar-collapse.nav-collapse
+            .menu-container
+              %ul.nav.navbar-nav.navbar-nav-right
+                %li.js_nav-item.nav-item
+                  %a.nav-item-child.nav-item-hover{:href => "#body"} Home
+                %li.js_nav-item.nav-item
+                  %a.nav-item-child.nav-item-hover{:href => "#products"} Products
+                %li.js_nav-item.nav-item
+                  %a.nav-item-child.nav-item-hover{:href => "#service"} Service
+                %li.js_nav-item.nav-item
+                  %a.nav-item-child.nav-item-hover{:href => "#work"} Work
+                %li.js_nav-item.nav-item
+                  %a.nav-item-child.nav-item-hover{:href => "#pricing"} Pricing
+                %li.js_nav-item.nav-item
+                  %a.nav-item-child.nav-item-hover{:href => "#contact"} Contact
+          / End Navbar Collapse
+      / Navbar
+    / ========== END HEADER ==========
+    / ========== SLIDER ==========
+    .promo-block
+      .container
+        .margin-b-40
+          %h1.promo-block-title Digital Product Agency.
+          %p.promo-block-text Look no further. You came to the right ... place
+        %a.js_popup-youtube.btn-theme.btn-theme-md.btn-white-bg.text-uppercase{:href => "https://www.youtube.com/watch?v=0qisGSwZym4", :title => "Intro Video"}
+          %i.btn-icon.icon-control-play
+          Watch Intro Video
+    / ========== SLIDER ==========
+    / ========== PAGE LAYOUT ==========
+    / Products
+    #products
+      .container.content-lg
+        .row.text-center.margin-b-40
+          .col-sm-6.col-sm-offset-3
+            %h2 Latest Products
+            %p Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation
+        / // end row
+        .row
+          / Latest Products
+          .col-sm-4.sm-margin-b-50
+            .margin-b-20
+              %img.img-responsive.wow.fadeIn{:alt => "Latest Products Image", "data-wow-delay" => ".1s", "data-wow-duration" => ".3", :src => "img/970x647/01.jpg"}/
+            %h4
+              %a{:href => "#"} Workspace
+              %span.text-uppercase.margin-l-20 Management
+            %p Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor
+            %a.link{:href => "#"} Read More
+          / End Latest Products
+          / Latest Products
+          .col-sm-4.sm-margin-b-50
+            .margin-b-20
+              %img.img-responsive.wow.fadeIn{:alt => "Latest Products Image", "data-wow-delay" => ".2s", "data-wow-duration" => ".3", :src => "img/970x647/02.jpg"}/
+            %h4
+              %a{:href => "#"} Minimalism
+              %span.text-uppercase.margin-l-20 Developmeny
+            %p Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor
+            %a.link{:href => "#"} Read More
+          / End Latest Products
+          / Latest Products
+          .col-sm-4.sm-margin-b-50
+            .margin-b-20
+              %img.img-responsive.wow.fadeIn{:alt => "Latest Products Image", "data-wow-delay" => ".3s", "data-wow-duration" => ".3", :src => "img/970x647/03.jpg"}/
+            %h4
+              %a{:href => "#"} Cleant Style
+              %span.text-uppercase.margin-l-20 Design
+            %p Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor
+            %a.link{:href => "#"} Read More
+          / End Latest Products
+        / // end row
+      .container-full-width
+        .row.row-space-2
+          .col-sm-6.sm-margin-b-4
+            %img.img-responsive{:alt => "Image", :src => "img/970x647/01.jpg"}/
+          .col-sm-6
+            %img.img-responsive{:alt => "Image", :src => "img/970x647/03.jpg"}/
+        / // end row
+    / End Products
+    / Service
+    #service
+      .bg-color-sky-light{"data-auto-height" => "true"}
+        .content-lg.container
+          .row.row-space-2.margin-b-4
+            .col-sm-4.sm-margin-b-4
+              .service{"data-height" => "height"}
+                .service-element
+                  %i.service-icon.icon-chemistry
+                .service-info
+                  %h3 Art Of Coding
+                  %p.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %a.content-wrapper-link{:href => "#"}
+            .col-sm-4.sm-margin-b-4
+              .service.bg-color-base.wow.fadeInDown{"data-height" => "height", "data-wow-delay" => ".1s", "data-wow-duration" => ".3"}
+                .service-element
+                  %i.service-icon.color-white.icon-screen-tablet
+                .service-info
+                  %h3.color-white Responsive Design
+                  %p.color-white.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %a.content-wrapper-link{:href => "#"}
+            .col-sm-4
+              .service{"data-height" => "height"}
+                .service-element
+                  %i.service-icon.icon-badge
+                .service-info
+                  %h3 Feature Reach
+                  %p.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %a.content-wrapper-link{:href => "#"}
+          / // end row
+          .row.row-space-2
+            .col-sm-4.sm-margin-b-4
+              .service{"data-height" => "height"}
+                .service-element
+                  %i.service-icon.icon-notebook
+                .service-info
+                  %h3 Useful Documentation
+                  %p.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %a.content-wrapper-link{:href => "#"}
+            .col-sm-4.sm-margin-b-4
+              .service{"data-height" => "height"}
+                .service-element
+                  %i.service-icon.icon-speedometer
+                .service-info
+                  %h3 Fast Delivery
+                  %p.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %a.content-wrapper-link{:href => "#"}
+            .col-sm-4
+              .service{"data-height" => "height"}
+                .service-element
+                  %i.service-icon.icon-badge
+                .service-info
+                  %h3 Free Plugins
+                  %p.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %a.content-wrapper-link{:href => "#"}
+          / // end row
+    / End Service
+    / Promo Banner
+    .promo-banner
+      .container-sm.content-lg
+        %h2.promo-banner-title Displaying the Result
+        %p.promo-banner-text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+    / End Promo Banner
+    / Work
+    #work
+      .content-md.container
+        / Masonry Grid
+        .masonry-grid.row.row-space-2
+          .masonry-grid-sizer.col-xs-6.col-sm-6.col-md-1
+          .masonry-grid-item.col-xs-12.col-sm-6.col-md-8.margin-b-4
+            / Work
+            .work.work-popup-trigger
+              .work-overlay
+                %img.full-width.img-responsive{:alt => "Portfolio Image", :src => "img/800x400/01.jpg"}/
+              .work-popup-overlay
+                .work-popup-content
+                  %a.work-popup-close{:href => "javascript:void(0);"} Hide
+                  .margin-b-30
+                    %h3.margin-b-5 Art Of Coding
+                    %span Clean &amp; Minimalistic Design
+                  .row
+                    .col-sm-8.work-popup-content-divider.sm-margin-b-20
+                      .margin-t-10.sm-margin-t-0
+                        %p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                        %ul.list-inline.work-popup-tag
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Design,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Coding,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Portfolio
+                    .col-sm-4
+                      .margin-t-10.sm-margin-t-0
+                        %p.margin-b-5
+                          %strong Project Leader:
+                          John Doe
+                        %p.margin-b-5
+                          %strong Designer:
+                          Alisa Keys
+                        %p.margin-b-5
+                          %strong Developer:
+                          Mark Doe
+                        %p.margin-b-5
+                          %strong Customer:
+                          Keenthemes
+            / End Work
+          .masonry-grid-item.col-xs-12.col-sm-6.col-md-4.margin-b-4
+            / Work
+            .work.work-popup-trigger
+              .work-overlay
+                %img.full-width.img-responsive{:alt => "Portfolio Image", :src => "img/397x400/01.jpg"}/
+              .work-popup-overlay
+                .work-popup-content
+                  %a.work-popup-close{:href => "javascript:void(0);"} Hide
+                  .margin-b-30
+                    %h3.margin-b-5 Art Of Coding
+                    %span Clean &amp; Minimalistic Design
+                  .row
+                    .col-sm-8.work-popup-content-divider.sm-margin-b-20
+                      .margin-t-10.sm-margin-t-0
+                        %p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                        %ul.list-inline.work-popup-tag
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Design,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Coding,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Portfolio
+                    .col-sm-4
+                      .margin-t-10.sm-margin-t-0
+                        %p.margin-b-5
+                          %strong Project Leader:
+                          John Doe
+                        %p.margin-b-5
+                          %strong Designer:
+                          Alisa Keys
+                        %p.margin-b-5
+                          %strong Developer:
+                          Mark Doe
+                        %p.margin-b-5
+                          %strong Customer:
+                          Keenthemes
+            / End Work
+          .masonry-grid-item.col-xs-12.col-sm-6.col-md-4.md-margin-b-4
+            / Work
+            .work.work-popup-trigger
+              .work-overlay
+                %img.full-width.img-responsive{:alt => "Portfolio Image", :src => "img/397x300/01.jpg"}/
+              .work-popup-overlay
+                .work-popup-content
+                  %a.work-popup-close{:href => "javascript:void(0);"} Hide
+                  .margin-b-30
+                    %h3.margin-b-5 Art Of Coding
+                    %span Clean &amp; Minimalistic Design
+                  .row
+                    .col-sm-8.work-popup-content-divider.sm-margin-b-20
+                      .margin-t-10.sm-margin-t-0
+                        %p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                        %ul.list-inline.work-popup-tag
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Design,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Coding,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Portfolio
+                    .col-sm-4
+                      .margin-t-10.sm-margin-t-0
+                        %p.margin-b-5
+                          %strong Project Leader:
+                          John Doe
+                        %p.margin-b-5
+                          %strong Designer:
+                          Alisa Keys
+                        %p.margin-b-5
+                          %strong Developer:
+                          Mark Doe
+                        %p.margin-b-5
+                          %strong Customer:
+                          Keenthemes
+            / End Work
+          .masonry-grid-item.col-xs-12.col-sm-6.col-md-4.md-margin-b-4
+            / Work
+            .work.work-popup-trigger
+              .work-overlay
+                %img.full-width.img-responsive{:alt => "Portfolio Image", :src => "img/397x300/02.jpg"}/
+              .work-popup-overlay
+                .work-popup-content
+                  %a.work-popup-close{:href => "javascript:void(0);"} Hide
+                  .margin-b-30
+                    %h3.margin-b-5 Art Of Coding
+                    %span Clean &amp; Minimalistic Design
+                  .row
+                    .col-sm-8.work-popup-content-divider.sm-margin-b-20
+                      .margin-t-10.sm-margin-t-0
+                        %p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                        %ul.list-inline.work-popup-tag
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Design,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Coding,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Portfolio
+                    .col-sm-4
+                      .margin-t-10.sm-margin-t-0
+                        %p.margin-b-5
+                          %strong Project Leader:
+                          John Doe
+                        %p.margin-b-5
+                          %strong Designer:
+                          Alisa Keys
+                        %p.margin-b-5
+                          %strong Developer:
+                          Mark Doe
+                        %p.margin-b-5
+                          %strong Customer:
+                          Keenthemes
+            / End Work
+          .masonry-grid-item.col-xs-12.col-sm-6.col-md-4
+            / Work
+            .work.work-popup-trigger
+              .work-overlay
+                %img.full-width.img-responsive{:alt => "Portfolio Image", :src => "img/397x300/03.jpg"}/
+              .work-popup-overlay
+                .work-popup-content
+                  %a.work-popup-close{:href => "javascript:void(0);"} Hide
+                  .margin-b-30
+                    %h3.margin-b-5 Art Of Coding
+                    %span Clean &amp; Minimalistic Design
+                  .row
+                    .col-sm-8.work-popup-content-divider.sm-margin-b-20
+                      .margin-t-10.sm-margin-t-0
+                        %p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                        %ul.list-inline.work-popup-tag
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Design,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Coding,
+                          %li.work-popup-tag-item
+                            %a.work-popup-tag-link{:href => "#"} Portfolio
+                    .col-sm-4
+                      .margin-t-10.sm-margin-t-0
+                        %p.margin-b-5
+                          %strong Project Leader:
+                          John Doe
+                        %p.margin-b-5
+                          %strong Designer:
+                          Alisa Keys
+                        %p.margin-b-5
+                          %strong Developer:
+                          Mark Doe
+                        %p.margin-b-5
+                          %strong Customer:
+                          Keenthemes
+            / End Work
+        / End Masonry Grid
+    / End Work
+    / Pricing
+    #pricing
+      .bg-color-sky-light
+        .content-lg.container
+          .row.row-space-2
+            .col-sm-4.sm-margin-b-4
+              / Pricing
+              .pricing
+                .margin-b-30
+                  %i.pricing-icon.icon-chemistry
+                  %h3
+                    Starter Kit
+                    %span - $
+                    49
+                  %p Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %ul.list-unstyled.pricing-list.margin-b-50
+                  %li.pricing-list-item Basic Features
+                  %li.pricing-list-item Up to 5 products
+                  %li.pricing-list-item 50 Users Panels
+                %a.btn-theme.btn-theme-sm.btn-default-bg.text-uppercase{:href => "pricing.html"} Choose
+              / End Pricing
+            .col-sm-4.sm-margin-b-4
+              / Pricing
+              .pricing.pricing-active
+                .margin-b-30
+                  %i.pricing-icon.icon-badge
+                  %h3
+                    Professional
+                    %span - $
+                    149
+                  %p Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %ul.list-unstyled.pricing-list.margin-b-50
+                  %li.pricing-list-item Basic Features
+                  %li.pricing-list-item Up to 100 products
+                  %li.pricing-list-item 100 Users Panels
+                %a.btn-theme.btn-theme-sm.btn-default-bg.text-uppercase{:href => "pricing.html"} Choose
+              / End Pricing
+            .col-sm-4
+              / Pricing
+              .pricing
+                .margin-b-30
+                  %i.pricing-icon.icon-shield
+                  %h3
+                    Advanced
+                    %span - $
+                    249
+                  %p Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
+                %ul.list-unstyled.pricing-list.margin-b-50
+                  %li.pricing-list-item Extended Features
+                  %li.pricing-list-item Unlimited products
+                  %li.pricing-list-item Unlimited Users Panels
+                %a.btn-theme.btn-theme-sm.btn-default-bg.text-uppercase{:href => "pricing.html"} Choose
+              / End Pricing
+          / // end row
+    / End Pricing
+    / Testimonials
+    .content-md.container
+      .row
+        .col-sm-9
+          %h2 Customer Reviews
+          / Swiper Testimonials
+          .swiper-slider.swiper-testimonials
+            / Swiper Wrapper
+            .swiper-wrapper
+              .swiper-slide
+                %blockquote.blockquote
+                  .margin-b-20
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
+                  .margin-b-20
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua.
+                  %p
+                    %span.fweight-700.color-link> Joh Milner
+                    , Metronic Customer
+              .swiper-slide
+                %blockquote.blockquote
+                  .margin-b-20
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  .margin-b-20
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  %p
+                    %span.fweight-700.color-link> Alex Clarson
+                    , Metronic Customer
+            / End Swiper Wrapper
+            / Pagination
+            .swiper-testimonials-pagination
+          / End Swiper Testimonials
+      / // end row
+    / End Testimonials
+    / Contact
+    #contact
+      / Google Map
+      .gmap
+        #map.map.height-400
+        %address.gmap-address
+          %p.color-heading.margin-b-0 277 Bedford Avenue, Brooklyn, NY 11211, New York, USA
+      / End Google Map
+    / End Contact
+    / ========== END PAGE LAYOUT ==========
+    / ========== FOOTER ==========
+    %footer.footer
+      / Links
+      .section-seperator
+        .content-md.container
+          .row
+            .col-sm-2.sm-margin-b-30
+              / List
+              %ul.list-unstyled.footer-list
+                %li.footer-list-item
+                  %a{:href => "#"} Home
+                %li.footer-list-item
+                  %a{:href => "#"} About
+                %li.footer-list-item
+                  %a{:href => "#"} Work
+                %li.footer-list-item
+                  %a{:href => "#"} Contact
+              / End List
+            .col-sm-2.sm-margin-b-30
+              / List
+              %ul.list-unstyled.footer-list
+                %li.footer-list-item
+                  %a{:href => "#"} Twitter
+                %li.footer-list-item
+                  %a{:href => "#"} Facebook
+                %li.footer-list-item
+                  %a{:href => "#"} Instagram
+                %li.footer-list-item
+                  %a{:href => "#"} YouTube
+              / End List
+            .col-sm-3
+              / List
+              %ul.list-unstyled.footer-list
+                %li.footer-list-item
+                  %a{:href => "#"} Subscribe to Our Newsletter
+                %li.footer-list-item
+                  %a{:href => "#"} Privacy Policy
+                %li.footer-list-item
+                  %a{:href => "#"} Terms &amp; Conditions
+              / End List
+          / // end row
+      / End Links
+      / Copyright
+      .content.container
+        .row
+          .col-xs-6
+            %img.footer-logo{:alt => "Aironepage Logo", :src => "img/logo-dark.png"}/
+          .col-xs-6.text-right
+            %p.margin-b-0
+              %a.fweight-700{:href => "http://keenthemes.com/preview/aironepage/"} Aironepage
+              Theme Powered by:
+              %a.fweight-700{:href => "http://www.keenthemes.com/"} KeenThemes.com
+        / // end row
+      / End Copyright
+    / ========== END FOOTER ==========
+    / Back To Top
+    %a.js-back-to-top.back-to-top{:href => "javascript:void(0);"} Top
+    / JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time)
+    / CORE PLUGINS
+    %script{:src => "vendor/jquery.min.js", :type => "text/javascript"}
+    %script{:src => "vendor/jquery-migrate.min.js", :type => "text/javascript"}
+    %script{:src => "vendor/bootstrap/js/bootstrap.min.js", :type => "text/javascript"}
+    / PAGE LEVEL PLUGINS
+    %script{:src => "vendor/jquery.easing.js", :type => "text/javascript"}
+    %script{:src => "vendor/jquery.back-to-top.js", :type => "text/javascript"}
+    %script{:src => "vendor/jquery.smooth-scroll.js", :type => "text/javascript"}
+    %script{:src => "vendor/jquery.wow.min.js", :type => "text/javascript"}
+    %script{:src => "vendor/swiper/js/swiper.jquery.min.js", :type => "text/javascript"}
+    %script{:src => "vendor/magnific-popup/jquery.magnific-popup.min.js", :type => "text/javascript"}
+    %script{:src => "vendor/masonry/jquery.masonry.pkgd.min.js", :type => "text/javascript"}
+    %script{:src => "vendor/masonry/imagesloaded.pkgd.min.js", :type => "text/javascript"}
+    %script{:async => "", :defer => "defer", :src => "https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U&callback=initMap"}
+    / PAGE LEVEL SCRIPTS
+    %script{:src => "js/layout.min.js", :type => "text/javascript"}
+    %script{:src => "js/components/wow.min.js", :type => "text/javascript"}
+    %script{:src => "js/components/swiper.min.js", :type => "text/javascript"}
+    %script{:src => "js/components/maginific-popup.min.js", :type => "text/javascript"}
+    %script{:src => "js/components/masonry.min.js", :type => "text/javascript"}
+    %script{:src => "js/components/gmap.min.js", :type => "text/javascript"}
+  / END BODY
